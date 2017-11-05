@@ -12,3 +12,31 @@
 .chart {
   margin: 30px auto;
 }
+
+table, tr, th, td {
+	font-family: "Trebuchet-MS", Arial;
+	border: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%; 
+}
+
+th {
+	background-color: green;
+	font-size: 16px;
+	color: white;
+	padding: 5px;
+	text-align: left;
+}
+
+tr, td {
+	font-size: 14px;
+	padding: 5px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
